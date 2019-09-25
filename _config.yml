@@ -1,1 +1,42 @@
-theme: jekyll-theme-cayman
+# Default settings: https://jekyllrb.com/docs/configuration/default/
+
+title: 'Coach with Design'
+#masthead_title: "Coach with Design"
+subtitle: 'Revealing design to uncover purpose'
+site:
+  description: 'Coaching people want to know who they are so they can accomplish their purpose in life.'
+url: 'https://coachwithdesign.com'
+theme: minimal-mistakes-jekyll
+minimal_mistakes_skin: "dirt" # "default", "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum" "sunrise"
+
+logo: "/assets/images/logo.100x100.png"
+#teaser: /assets/images/logo.100x100.png
+
+defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      read_time: true
+      #words_per_minute: 200
+      #comments: true
+
+# comments:
+#   provider: "disqus"
+#   disqus:
+#     shortname: "your-disqus-shortname"
+
+twitter:
+  username: "CoachWithDesign"
+# facebook:
+#   #app_id:
+#   #publisher:  # A Facebook page URL or ID of the publishing entity
+#   username: "CoachWithDesign"
+social:
+  #type:  # Person or Organization (defaults to Person)
+  #name:  # If the user or organization name differs from the site's name
+  links:
+    - "https://twitter.com/CoachWithDesign"
+    - "https://facebook.com/CoachWithDesign"
+    - "https://www.linkedin.com/in/CoachWithDesign"

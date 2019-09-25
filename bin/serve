@@ -1,3 +1,8 @@
+#!/bin/bash
+
 bundle install
+bundle exec jekyll serve --livereload &
+JEKYLL_PID=$!
+sleep 3 #waiting for server boot
 open http://127.0.0.1:4000
-bundle exec jekyll serve
+wait "$JEKYLL_PID"

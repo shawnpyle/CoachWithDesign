@@ -1,18 +1,15 @@
-# Overview
-
-This is the repository for the [CoachWithDesign](https://shawnpyle.github.io/CoachWithDesign/) [GitHub page](https://pages.github.com/). General [page basics](https://help.github.com/categories/github-pages-basics/) may also be helpful.
+This is the repository for the [CoachWithDesign](https://shawnpyle.github.io/CoachWithDesign/) [GitHub page](https://pages.github.com/) that uses [Jekyll](https://jekyllrb.com/). General [page basics](https://help.github.com/categories/github-pages-basics/) may also be helpful.
 
 The layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/shawnpyle/CoachWithDesign/settings) are saved in the Jekyll's `_config.yml`.
 
 # Locally
 
-To run this site locally, follow [the steps here](https://help.github.com/en/articles/setting-up-your-github-pages-site-locally-with-jekyll) or use the condensed version:
+Run `bin/serve` to launch a local server. Steps were derived from the [these steps](https://help.github.com/en/articles/setting-up-your-github-pages-site-locally-with-jekyll) and [this condensed version](https://jekyllrb.com/docs/).
 
-```sh
-bundle install
-open http://127.0.0.1:4000
-bundle exec jekyll serve
-```
+# Themes
+
+https://help.github.com/en/articles/about-jekyll-themes-on-github
+https://jekyllthemes.io/blog
 
 # Sample Markdown
 
@@ -37,3 +34,7 @@ Syntax highlighted code block
 
 [Link](url) and ![Image](src)
 ```
+
+# Resources
+
+https://favicon.io/favicon-generator/
