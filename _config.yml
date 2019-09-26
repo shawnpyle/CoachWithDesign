@@ -6,7 +6,9 @@ subtitle: 'Revealing design to uncover purpose'
 site:
   description: 'Coaching people want to know who they are so they can accomplish their purpose in life.'
 url: 'https://coachwithdesign.com'
-theme: minimal-mistakes-jekyll
+
+#theme: minimal-mistakes-jekyll
+remote_theme: "mmistakes/minimal-mistakes@4.16.6"
 minimal_mistakes_skin: "dirt" # "default", "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum" "sunrise"
 
 logo: "/assets/images/logo.100x100.png"
@@ -22,13 +24,16 @@ defaults:
       #words_per_minute: 200
       #comments: true
 
+plugins:
+  - jekyll-include-cache
+
 # comments:
 #   provider: "disqus"
 #   disqus:
 #     shortname: "your-disqus-shortname"
 
 twitter:
-  username: "CoachWithDesign"
+  username: &twitter "CoachWithDesign"
 # facebook:
 #   #app_id:
 #   #publisher:  # A Facebook page URL or ID of the publishing entity
@@ -40,3 +45,10 @@ social:
     - "https://twitter.com/CoachWithDesign"
     - "https://facebook.com/CoachWithDesign"
     - "https://www.linkedin.com/in/CoachWithDesign"
+
+# Site Author
+author:
+  links:
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      url: "https://twitter.com/CoachWithDesign"
